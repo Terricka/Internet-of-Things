@@ -1,6 +1,6 @@
 
 ############## LIST TITLES ##############
-## lists titles of newwest emails every 6 minutes
+## lists titles of newwest emails every 5 minutes
 
 
 import feedparser       # imports feedparser 
@@ -21,6 +21,6 @@ while True:     #loop exit: use keys "ctr+c"
     	# print email titles
     	print i.title + " sent by " + i.author
    
-    time.sleep(300)       #wait 6 minutes
+    time.sleep(300)       #wait 5 minutes
 
 
