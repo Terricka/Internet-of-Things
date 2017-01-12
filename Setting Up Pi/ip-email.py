@@ -18,7 +18,7 @@ while True:
 		user_name = "Terricka Johnson"
 		to = 'johnt626@newschool.edu'
 		gmail_user = 'johnt626@newschool.edu'
-		gmail_password = ‘Tweety08!’
+		gmail_password = ‘******’
 		smtpserver = smtplib.SMTP('smtp.gmail.com', 587)
 		smtpserver.ehlo()
 		smtpserver.starttls()
